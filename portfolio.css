@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    padding:0px 90px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 0px;
+    
+}
+ul{
+    display:flex;
+    gap:40px;
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+#Hero{
+    display:flex;
+    justify-content:space-between;
+    gap:20%;
+    padding: 30px 0;
+}
+
+#red-font{
+    color: #EE5D7C;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+   
+    top: 53px;
+    left: 30px;
+   
+}
+.circle{
+    width:350px;
+    height:350px;
+    border:1px solid #EE5D7C;
+    border-radius:50%;
+    background:#EE5D7C;
+    position: relative;
+}
+#about-me{
+background: #EE5D7C;
+}
+.increase-height{
+    line-height:2 ;
+}
+
+.blue{
+    color: white;
+    background-color: purple;
+    border-radius: 30px;
+    padding: 10px  20px;
+   
+}
+.click{
+  margin: 20px 0;
+}
+#download{
+    color: purple;
+  
+}
+#about-me{
+    display: flex;
+    border: 2px solid black;
+    height: 300px;
+    align-content: center;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    gap: 10%;
+}
+#skills{
+    display: flex;
+    border: 1px solid white;
+    padding: 70px;
+    justify-content: space-evenly;
+    gap: 15%;
+}
+.card{
+    border: 1px solid black;
+    padding: 50px;
+    align-content: center;
+    
+
+}
+
+#pinky{
+    background: #EE5D7C;
+    color: white;
+}
+footer{
+    border: 1px solid #EE5D7C;
+    text-align: center;
+    font-weight: bold;
+    background: #EE5D7C;
+    color: white;
+}
+.wid{
+    text-align: center;
+    padding: 20px;
+}
+#ah{
+    color: white;
+}
